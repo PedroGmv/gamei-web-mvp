@@ -1,0 +1,1 @@
+# TODO - Site Completion (GAMEI) ✅\n\n- [x] Analyze files & confirm 100% functional\n- [x] Add sala personalizavel.png to wizard tier Prime\n- [x] Fix og:image/twitter:image metas\n- [x] Test: `start index.html`\n- [x] Complete

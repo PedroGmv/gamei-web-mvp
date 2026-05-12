@@ -1,0 +1,7 @@
+# Pasta de dependências do Node.js
+# Ela será reinstalada automaticamente no servidor.
+node_modules/
+
+# Arquivo do banco de dados.
+# O servidor de produção (Render) usará um disco próprio para ele.
+reservas.db

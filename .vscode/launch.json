@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Rodar Frontend (Chrome)",
+      "file": "${workspaceFolder}/frontend/index.html"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Rodar Backend (Node.js)",
+      "program": "${workspaceFolder}/backend/server.js"
+    }
+  ]
+}

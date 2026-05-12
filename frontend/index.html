@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="GAMEI — restaurante experiencial na Zona Sul do Rio de Janeiro. Cápsulas intimistas para casais, bar e lounge. Hospitalidade, privacidade e experiência.">
+    <meta name="theme-color" content="#060606">
+    <meta name="apple-mobile-web-app-title" content="GAMEI">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="GAMEI">
+    <meta property="og:title" content="GAMEI | Hospitalidade de Experiência — Zona Sul, Rio de Janeiro">
+    <meta property="og:description" content="Cápsulas intimistas para casais, bar e lounge na Zona Sul do Rio. Controle de clima, luz e música — discrição absoluta.">
+    <meta property="og:image" content="img/sala-personalizavel.png">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GAMEI | Hospitalidade de Experiência">
+    <meta name="twitter:description" content="Restaurante experiencial na Zona Sul do Rio de Janeiro. Reserve sua cápsula.">
+    <meta name="twitter:image" content="img/sala-personalizavel.png">
+    <title>GAMEI | Hospitalidade de Experiência — Rio de Janeiro</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    <link rel="canonical" id="canonical-link" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+    <!-- Cabeçalho fixo: marca + navegação suave -->
+    <header class="site-header" role="banner" id="site-header">
+      <div class="header-bar">
+        <a href="#hero" class="logo" aria-label="GAMEI — início">GA<span>MEI</span></a>
+        <button
+          type="button"
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+          aria-label="Abrir menu de navegação">
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+      <nav class="nav-main" id="main-navigation" aria-label="Principal">
+        <ul>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="#experiencias">Experiências</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#lounge">Área comum</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#reservas" class="nav-cta">Reservar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <!-- 1) Landing — Hero -->
+      <section id="hero" class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="hero-badge">Restaurante experiencial · Zona Sul · Rio de Janeiro</p>
+          <h1 id="hero-title" class="hero-title">GA<span class="gold">MEI</span></h1>
+          <p class="hero-tagline">
+            Cápsulas privativas para casais. Controle total de ambiente. Bar lounge.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="#reservas">Reservar cápsula</a>
+            <a class="btn-ghost" href="#experiencias">Ver salas temáticas</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 1) Landing — Como funciona -->
+      <section id="como-funciona" aria-labelledby="como-titulo">
+        <div class="section-inner">
+          <p class="section-label">Jornada</p>
+          <h2 id="como-titulo" class="section-title">Como funciona</h2>
+          <p class="section-lead">
+            Três momentos simples: você reserva o tempo, vive a cápsula no seu ritmo e, se quiser,
+            estende a noite no nosso bar com atendimento discreto.
+          </p>
+          <div class="flow-grid" role="list">
+            <article class="flow-card" role="listitem">
+              <div class="flow-step" aria-hidden="true">01</div>
+              <h3>Reserva</h3>
+              <p>
+                Escolha data, horário e o tier da experiência. Confirmamos silenciosamente —
+                sem ligações intrusivas: tudo pelo canal que você preferir.
+              </p>
+            </article>
+            <article class="flow-card" role="listitem">
+              <div class="flow-step" aria-hidden="true">02</div>
+              <h3>Cápsula</h3>
+              <p>
+                Sala fechada, atendimento invisível. Ajuste temperatura, cena de luz e trilha sonora
+                pelo painel — ou deixe o preset da sala conduzir a narrativa.
+              </p>
+            </article>
+            <article class="flow-card" role="listitem">
+              <div class="flow-step" aria-hidden="true">03</div>
+              <h3>Área comum</h3>
+              <p>
+                Bar e lounge para um drink antes, um digestivo depois, ou uma conversa sem pressa
+                antes de voltar ao mundo lá fora.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 1) Landing — Galeria de experiências -->
+      <section id="experiencias" aria-labelledby="exp-titulo">
+        <div class="section-inner">
+          <p class="section-label">Salas</p>
+          <h2 id="exp-titulo" class="section-title">Galeria de experiências</h2>
+          <p class="section-lead">
+            Cada cápsula é um roteiro sensorial. Todas com isolamento acústico e protocolo de
+            privacidade absoluta.
+          </p>
+          <div class="experience-grid">
+            <article class="experience-card experience-card--lua">
+              <div class="experience-card__visual">
+                <img
+                  src="img/quarto-lua.png"
+                  alt="Cápsula Lua com iluminação azulada, lua crescente ao fundo e mesa para dois."
+                  width="1024"
+                  height="512"
+                  loading="lazy"
+                  decoding="async">
+              </div>
+              <span class="experience-card__tag">Romance</span>
+              <div class="experience-card__body">
+                <h3>Lua</h3>
+                <p>Penumbra prateada, temperatura amena e silêncio generoso — pensada para conversas longas e proximidade.</p>
+              </div>
+            </article>
+            <article class="experience-card experience-card--tempestade">
+              <div class="experience-card__visual">
+                <img
+                  src="img/quarto-tempestade.png"
+                  alt="Cápsula Tempestade com tons frios, iluminação dramática e textura rochosa ao fundo."
+                  width="1024"
+                  height="512"
+                  loading="lazy"
+                  decoding="async">
+              </div>
+              <span class="experience-card__tag">Intensidade</span>
+              <div class="experience-card__body">
+                <h3>Tempestade</h3>
+                <p>Luz dinâmica, frescor controlado e texturas profundas. Para quem gosta de tensão elegante e foco total um no outro.</p>
+              </div>
+            </article>
+            <article class="experience-card experience-card--encontro">
+              <div class="experience-card__visual">
+                <img
+                  src="img/quarto-primeiro-encontro.png"
+                  alt="Cápsula Primeiro encontro com iluminação quente, mesa redonda e atmosfera acolhedora."
+                  width="1024"
+                  height="512"
+                  loading="lazy"
+                  decoding="async">
+              </div>
+              <span class="experience-card__tag">Descoberta</span>
+              <div class="experience-card__body">
+                <h3>Primeiro encontro</h3>
+                <p>Aconchego dourado, trilha suave e "modo surpresa" do chef — quebra-gelo refinado sem roubar a cena de vocês.</p>
+              </div>
+            </article>
+            <article class="experience-card experience-card--recomeco">
+              <div class="experience-card__visual">
+                <img
+                  src="img/quarto-recomeco.png"
+                  alt="Cápsula Recomeço com tons verdes e âmbar, painel de controle e jantar para casal."
+                  width="1024"
+                  height="512"
+                  loading="lazy"
+                  decoding="async">
+              </div>
+              <span class="experience-card__tag">Calma</span>
+              <div class="experience-card__body">
+                <h3>Recomeço</h3>
+                <p>Minimalismo verde-âmbar, aromas limpos e pratos que pedem atenção plena — ambiente para reencontro e reconfiguração.</p>
+              </div>
+            </article>
+            <article class="experience-card experience-card--prime">
+              <div class="experience-card__visual">
+                <img
+                  src="img/sala-personalizavel.png"
+                  alt="Cápsula Personalizável com mesa e ambiente customizável."
+                  width="1024"
+                  height="512"
+                  loading="lazy"
+                  decoding="async">
+              </div>
+              <span class="experience-card__tag">Premium</span>
+              <div class="experience-card__body">
+                <h3>Cápsula Personalizável</h3>
+                <p>Controle absoluto de luz, música e clima. Acesso irrestrito a todo o cardápio (incluindo pratos exclusivos) e permanência estendida de 2h a 3h.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cardápio — valores por categoria -->
+      <section id="cardapio" aria-labelledby="cardapio-titulo">
+        <div class="section-inner">
+          <p class="section-label">Sabores</p>
+          <h2 id="cardapio-titulo" class="section-title">Cardápio</h2>
+          <p class="section-lead">
+            Na <strong class="text-gold">Cápsula Temática</strong>, o <em>Prato Assinatura</em> da respectiva sala já está incluso (para trocar de prato, aplica-se taxa de R$ 19,90 + valor do novo pedido).
+            A <strong class="text-gold">Cápsula Personalizável</strong> oferece liberdade absoluta: escolha qualquer prato do menu — incluindo as assinaturas exclusivas — montando a jornada à sua maneira.
+          </p>
+
+          <div class="menu-layout">
+            <details class="menu-category" open>
+              <summary id="menu-entradas" class="menu-category__title">Entradas</summary>
+              <ul class="menu-list">
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Carpaccio de beterraba, ricota defumada e pistache</span>
+                    <span class="menu-item__price" aria-label="48 reais">R$ 48</span>
+                  </div>
+                  <p class="menu-item__desc">Vinagrete cítrico, folhas tenras.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Tartar de atum com gergelim e maçã verde</span>
+                    <span class="menu-item__price" aria-label="62 reais">R$ 62</span>
+                  </div>
+                  <p class="menu-item__desc">Geleia de pimenta suave, chips de batata-doce.</p>
+                </li>
+                <li class="menu-item menu-item--express">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Ceviche de peixe branco com leite de tigre</span>
+                    <span class="menu-item__price" aria-label="54 reais">R$ 54</span>
+                  </div>
+                  <p class="menu-item__desc">Coentro, cebola roxa, chips de inhame — também no cardápio temático.</p>
+                </li>
+              </ul>
+            </details>
+
+            <details class="menu-category">
+              <summary id="menu-principais" class="menu-category__title">Principais</summary>
+              <ul class="menu-list">
+                <li class="menu-item menu-item--express">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Risoto de funghi porcini e parmigiano</span>
+                    <span class="menu-item__price" aria-label="88 reais">R$ 88</span>
+                  </div>
+                  <p class="menu-item__desc">Caldo reduzido, manteiga noz-moscada.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Peito de pato com molho de frutas vermelhas</span>
+                    <span class="menu-item__price" aria-label="112 reais">R$ 112</span>
+                  </div>
+                  <p class="menu-item__desc">Purê de batata-poró, microfolhas.</p>
+                </li>
+                <li class="menu-item menu-item--express">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Filé ao molho de vinho tinto e purê aveludado</span>
+                    <span class="menu-item__price" aria-label="98 reais">R$ 98</span>
+                  </div>
+                  <p class="menu-item__desc">Cogumelos salteados.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Badejo com crosta de ervas e legumes glaceados</span>
+                    <span class="menu-item__price" aria-label="105 reais">R$ 105</span>
+                  </div>
+                  <p class="menu-item__desc">Caldo leve de açafrão, limão siciliano.</p>
+                </li>
+              </ul>
+            </details>
+
+            <details class="menu-category">
+              <summary id="menu-assinaturas" class="menu-category__title">Assinaturas Temáticas</summary>
+              <ul class="menu-list">
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Vieiras ao Luar <span class="text-gold">(Cápsula Lua)</span></span>
+                    <span class="menu-item__price" aria-label="118 reais">R$ 118</span>
+                  </div>
+                  <p class="menu-item__desc">Vieiras seladas, creme de couve-flor e ovas. Delicadeza e tons prateados para embalar a noite.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Polvo em Fumaça <span class="text-gold">(Tempestade)</span></span>
+                    <span class="menu-item__price" aria-label="135 reais">R$ 135</span>
+                  </div>
+                  <p class="menu-item__desc">Tentáculos na brasa, risoto negro de tinta de lula. O prato é revelado sob fumaça densa de alecrim.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Crudos para Compartilhar <span class="text-gold">(1º Encontro)</span></span>
+                    <span class="menu-item__price" aria-label="92 reais">R$ 92</span>
+                  </div>
+                  <p class="menu-item__desc">Degustação interativa de peixes curados. Montagem livre que serve como um elegante quebra-gelo.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Robalo em Capim-Limão <span class="text-gold">(Recomeço)</span></span>
+                    <span class="menu-item__price" aria-label="108 reais">R$ 108</span>
+                  </div>
+                  <p class="menu-item__desc">Caldo dashi translúcido, brotos verdes e azeite herbáceo. Minimalista, focado no frescor e na leveza.</p>
+                </li>
+              </ul>
+            </details>
+
+            <details class="menu-category">
+              <summary id="menu-sobremesas" class="menu-category__title">Sobremesas</summary>
+              <ul class="menu-list">
+                <li class="menu-item menu-item--express">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Fondant de chocolate com sorvete de baunilha</span>
+                    <span class="menu-item__price" aria-label="42 reais">R$ 42</span>
+                  </div>
+                  <p class="menu-item__desc">Cacau 70%, flor de sal.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Tartelette de limão com merengue queimado</span>
+                    <span class="menu-item__price" aria-label="38 reais">R$ 38</span>
+                  </div>
+                  <p class="menu-item__desc">Base amanteigada, raspas frescas.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Seleção de queijos artesanais com geleias</span>
+                    <span class="menu-item__price" aria-label="68 reais">R$ 68</span>
+                  </div>
+                  <p class="menu-item__desc">Para duas pessoas, harmonização sob consulta.</p>
+                </li>
+              </ul>
+            </details>
+
+            <details class="menu-category">
+              <summary id="menu-bar" class="menu-category__title">Bar & harmonizações</summary>
+              <ul class="menu-list">
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Coquetel assinatura GAMEI (álcool)</span>
+                    <span class="menu-item__price" aria-label="45 reais">R$ 45</span>
+                  </div>
+                  <p class="menu-item__desc">Carta rotativa — pergunte ao bartender no lounge.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Taça de vinho (seleção da casa)</span>
+                    <span class="menu-item__price" aria-label="38 a 58 reais">R$ 38 — R$ 58</span>
+                  </div>
+                  <p class="menu-item__desc">Branco, rosé ou tinto por taça.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__row">
+                    <span class="menu-item__name">Água / refrigerante / refresco</span>
+                    <span class="menu-item__price" aria-label="12 a 18 reais">R$ 12 — R$ 18</span>
+                  </div>
+                  <p class="menu-item__desc">Opções sem álcool.</p>
+                </li>
+              </ul>
+            </details>
+          </div>
+
+          <p class="menu-footnote">
+            Valores por item, sujeitos a sazonalidade. Experiência da cápsula:
+            <strong class="text-gold">R$ 229,90</strong> (temática) ou <strong class="text-gold">R$ 180,00</strong> (personalizável)
+            — ver <a href="#reservas">reservas</a>.
+          </p>
+        </div>
+      </section>
+
+      <!-- Lounge / bar -->
+      <section id="lounge" aria-labelledby="lounge-titulo">
+        <div class="section-inner">
+          <p class="section-label">Antes e depois</p>
+          <h2 id="lounge-titulo" class="section-title">Bar & lounge</h2>
+          <div class="lounge-block">
+            <figure class="lounge-media">
+              <img
+                src="img/bar-lounge-2.png"
+                alt="Bar e lounge do GAMEI com iluminação baixa, balcão central e mesas para casais."
+                width="1024"
+                height="576"
+                loading="lazy"
+                decoding="async">
+            </figure>
+            <div class="lounge-teaser">
+              <p>
+                Coquetéis assinatura, carta de vinhos curada e música ambiente baixa.
+                A área comum é o contraponto social ao isolamento da cápsula — mesmo padrão de
+                discrição, outro ritmo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Localização — Zona Sul, Rio de Janeiro -->
+      <section id="localizacao" aria-labelledby="local-titulo">
+        <div class="section-inner">
+          <p class="section-label">Onde estamos</p>
+          <h2 id="local-titulo" class="section-title">Localização</h2>
+          <p class="section-lead">
+            O GAMEI fica na <strong class="text-gold">Zona Sul do Rio de Janeiro</strong>, entre o mar e a cidade —
+            região bem servida de metrô, ônibus e bicicleta. Endereço exato é enviado na confirmação da reserva,
+            para manter o mesmo cuidado com a privacidade que você vive na cápsula.
+          </p>
+          <div class="location-grid">
+            <div class="location-info">
+              <details class="location-details" open>
+                <summary>Região</summary>
+                <p>
+                  <strong class="text-gold">Zona Sul</strong> (eixo Ipanema / Leblon / Lagoa). Acesso rápido pela
+                  <strong>Linha 4</strong> do metrô (ex.: estação Jardim de Alah, Antero de Quental) e pelas linhas que
+                  cortam a orla e a Lagoa Rodrigo de Freitas.
+                </p>
+              </details>
+              <details class="location-details">
+                <summary>Funcionamento</summary>
+                <p>
+                  <strong>Quinta a domingo</strong>, janelas de entrada entre <strong>18h e 02h30</strong>
+                  (última reserva). O bar e lounge seguem o ritmo da casa até o encerramento discreto da noite.
+                </p>
+              </details>
+              <details class="location-details">
+                <summary>Chegar de carro</summary>
+                <p>
+                  Zonas azul e de convenções na região; várias garagens e estacionamentos particulares nas quadras
+                  próximas à orla e à Lagoa. Sugerimos apps de mobilidade para evitar fila em horários de pico.
+                </p>
+              </details>
+              <a
+                class="map-link"
+                href="https://www.google.com/maps/search/?api=1&query=Zona+Sul,+Rio+de+Janeiro,+RJ"
+                target="_blank"
+                rel="noopener noreferrer">
+                Abrir rotas no Google Maps
+              </a>
+            </div>
+            <div class="location-map" aria-hidden="true">
+              <iframe
+                title="Mapa da Zona Sul do Rio de Janeiro"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=Zona+Sul,+Rio+de+Janeiro,+RJ&amp;hl=pt-BR&amp;z=12&amp;output=embed"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" aria-labelledby="faq-titulo">
+        <div class="section-inner">
+          <p class="section-label">Dúvidas</p>
+          <h2 id="faq-titulo" class="section-title">Perguntas frequentes</h2>
+          <p class="section-lead">
+            Transparência com o mesmo tom da casa: objetivo, sem ruído.
+          </p>
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>Qual o dress code?</summary>
+              <div class="faq-item__body">
+                <p>
+                  <strong>Elegância casual a smart casual.</strong> O ambiente é intimista — evite trajes de praia,
+                  chinelos ou looks de academia. Se tiver dúvida para uma data especial, pergunte ao concierge na
+                  confirmação.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Como funciona cancelamento ou remarcação?</summary>
+              <div class="faq-item__body">
+                <p>
+                  Caso de reserva com pagamento no PIX, a devolução pode ser feita via PIX com até 7 dias úteis ou para uma próxima reserva, onde disponibilizaremos um cupom.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Vocês atendem restrições alimentares e alergias?</summary>
+              <div class="faq-item__body">
+                <p>
+                  Sim. Informe <strong>na reserva ou com antecedência mínima</strong> — o menu personalizável permite
+                  adaptações; no cardápio expresso da cápsula temática, o chef indica o melhor encaixe dentro do tempo
+                  da sessão.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+            <summary>Como funciona a escolha dos pratos nas cápsulas?</summary>
+            <div class="faq-item__body">
+              <p>
+                Na <strong>Cápsula Temática (R$ 229,90)</strong>, o prato Assinatura exclusivo da sala escolhida já está incluso no valor base. Se desejar trocar por outro prato do cardápio, cobra-se uma taxa de R$ 19,90 + o valor do novo prato. Na <strong>Cápsula Personalizável (R$ 180,00)</strong>, a base da sala é menor e você tem acesso livre a todo o menu (incluindo acessar as assinaturas exclusivas de outras salas), pagando à parte pelo que consumir.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+              <summary>Quanto tempo dura a experiência na cápsula?</summary>
+              <div class="faq-item__body">
+                <p>
+                  Depende do tier: na <strong>Cápsula Temática</strong> a permanência típica é de
+                  <strong>1h30 a 2h30</strong>; na <strong>Personalizável</strong>, de <strong>2h a 3h</strong>, com
+                  controle ampliado do ambiente e do menu.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Qual a idade mínima ou restrições para reserva?</summary>
+              <div class="faq-item__body">
+                <p>
+                  Reservas para maiores de 18 anos. Apenas casais ou pares—não atendemos reservas individuais ou grupos maiores de 6 pessoas.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Sair antes do tempo mínimo da cápsula?</summary>
+              <div class="faq-item__body">
+                <p>
+                  Caso saiam antes do tempo mínimo das cápsulas, o tempo será abatido no valor final proporcionalmente.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>O site coleta dados para anúncios?</summary>
+              <div class="faq-item__body">
+                <p>
+                  Este protótipo <strong>não usa cookies de publicidade nem pixels de rastreamento</strong>. Em uma
+                  versão com reserva real, só passaríamos a tratar dados conforme a LGPD, com aviso claro e base legal.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2) Sistema de reservas — funil em 3 passos (simulado em JS) -->
+      <section id="reservas" aria-labelledby="reservas-titulo">
+        <div class="section-inner">
+          <p class="section-label">Concierge digital</p>
+          <h2 id="reservas-titulo" class="section-title">Sistema de reservas</h2>
+          <p class="section-lead">
+            Protótipo interativo: monte sua reserva em três passos. Os valores são simulados para
+            demonstração do funil.
+          </p>
+
+          <div class="reserva-panel">
+            <p class="wizard-draft-hint is-hidden" id="reserva-draft-hint" role="status">
+              Continuamos de onde você parou — data, horário e opções foram recuperados neste navegador.
+            </p>
+            <div class="wizard-progress" aria-hidden="true">
+              <span class="wizard-step-dot is-active" data-step="1">1</span>
+              <span class="wizard-step-dot" data-step="2">2</span>
+              <span class="wizard-step-dot" data-step="3">3</span>
+            </div>
+
+            <form id="form-reserva">
+              <!-- Passo 1: data e horário -->
+              <div class="wizard-step is-visible" data-step="1" id="step-1">
+                <h3>Seus dados e horário</h3>
+                <div class="datetime-grid">
+                  <div class="form-group">
+                    <label for="reserva-nome">Nome</label>
+                    <input type="text" id="reserva-nome" name="nome" placeholder="Seu nome" required autocomplete="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="reserva-celular">Celular / WhatsApp</label>
+                    <input type="tel" id="reserva-celular" name="celular" placeholder="(21) 90000-0000" required autocomplete="tel">
+                    <small class="help-text">Para confirmação silenciosa 2h antes</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="reserva-data">Data</label>
+                    <input type="date" id="reserva-data" name="data" required autocomplete="off">
+                    <small class="help-text">Disponível Quinta a Domingo (hoje: <span id="today-weekday"></span>)</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="reserva-horario">Bloco horário</label>
+                    <select id="reserva-horario" name="horario" required>
+                      <option value="" disabled selected>Selecione um horário...</option>
+                      <option value="18h">18h — Entrada cedo</option>
+                      <option value="19h30">19h30 — Jantar</option>
+                      <option value="21h">21h — Jantar tardio</option>
+                      <option value="22h30">22h30 — Noite</option>
+                      <option value="23h30">23h30 — Madrugada</option>
+                      <option value="00h30">00h30 — Madrugada</option>
+                      <option value="01h30">01h30 — Madrugada</option>
+                      <option value="02h30">02h30 — Coruja (última)</option>
+                    </select>
+                    <small class="help-text">Duração varia por tier</small>
+                  </div>
+                </div>
+                <p class="step-desc">A discrição começa aqui. Tempo final depende da experiência escolhida.</p>
+              </div>
+
+              <!-- Passo 2: tier -->
+              <div class="wizard-step" data-step="2" id="step-2">
+                <h3>Tier da experiência</h3>
+                <p class="step-desc">Defina o nível de personalização e o cardápio.</p>
+                <div class="tier-options" role="radiogroup" aria-label="Tier da cápsula">
+                  <div class="tier-option">
+                    <input type="radio" name="tier" id="tier-tematica" value="tematica" required>
+                    <label for="tier-tematica">
+                      <strong>Cápsula Temática Predefinida</strong>
+                      <span class="tier-price">Valor base · R$ 229,90 por sessão</span>
+                      <small>
+                        Prato Assinatura da sala já incluso. Tema visual e sonoro alinhados à sala escolhida.
+                        Tempo de permanência: 1h30 a 2h30.
+                        Personalização extra de clima, luz, ou troca do prato incluso possui taxa adicional (opcional no resumo).
+                      </small>
+                    </label>
+                  </div>
+                  <div class="tier-option">
+                    <input type="radio" name="tier" id="tier-prime" value="prime">
+                    <label for="tier-prime">
+                      <strong>Cápsula Personalizável</strong>
+                      <span class="tier-price">Valor flexível · R$ 180,00 por sessão</span>
+                      <small>
+                        Controle total do ambiente, permanência de 2h a 3h e acesso integral ao menu 
+                        (peça qualquer prato, até os exclusivos), com prioridade no atendimento invisível.
+                      </small>
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group is-hidden" id="room-selection-group">
+                  <label for="reserva-sala">Cápsula Temática Disponível</label>
+                  <select id="reserva-sala" name="sala">
+                    <option value="" disabled selected>Buscando disponibilidade para a data/hora...</option>
+                    <option value="Lua (Romance)">Cápsula Lua (Romance)</option>
+                    <option value="Tempestade (Intensidade)">Cápsula Tempestade (Intensidade)</option>
+                    <option value="Primeiro Encontro (Descoberta)">Cápsula Primeiro Encontro (Descoberta)</option>
+                    <option value="Recomeço (Calma)">Cápsula Recomeço (Calma)</option>
+                  </select>
+                </div>
+                <div class="addon-row is-hidden" id="addon-clima-row">
+                  <label>
+                    <input type="checkbox" id="addon-clima" name="addon_clima" value="1">
+                    <span>
+                        <strong>Personalização extra</strong> (alterar clima/luz ou trocar de prato)
+                      <span class="text-gold">(+ R$ 19,90)</span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Passo 3: resumo -->
+              <div class="wizard-step" data-step="3" id="step-3">
+                <h3>Resumo da reserva</h3>
+                <p class="step-desc">Confira os valores aplicados antes de concluir a simulação.</p>
+                <ul class="summary-list" id="summary-lines"></ul>
+                <div class="summary-total">
+                  <span>Total estimado</span>
+                  <span id="summary-total-value">R$ 0,00</span>
+                </div>
+              </div>
+            </form>
+
+            <div class="wizard-nav">
+              <button type="button" class="btn-ghost is-hidden" id="wizard-back">Voltar</button>
+              <button type="button" class="btn-primary" id="wizard-next">Continuar</button>
+            </div>
+            <p class="wizard-message" id="wizard-message" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Botão Flutuante Mobile -->
+    <div class="mobile-floating-cta" id="mobile-cta">
+      <a href="#reservas" class="btn-primary">Reservar cápsula</a>
+    </div>
+
+    <footer class="site-footer" role="contentinfo">
+      <p>&copy; 2026 GAMEI · Zona Sul, Rio de Janeiro. Protótipo front-end — HTML, CSS e JavaScript vanilla.</p>
+      <p class="site-footer__privacy">Sem cookies de publicidade nesta página. Em produção, dados de reserva seguiriam a LGPD.</p>
+    </footer>
+  </body>
+</html>
