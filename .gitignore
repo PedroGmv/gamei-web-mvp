@@ -1,0 +1,6 @@
+# Dependências do Node
+node_modules/
+
+# Banco de dados local e variáveis de ambiente
+reservas.db
+.env
