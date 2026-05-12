@@ -527,7 +527,7 @@
     const isLocalhost = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" || window.location.protocol === "file:";
     const API_URL = isLocalhost 
       ? "http://localhost:3000/api/reservas" 
-      : "https://teste-backend-xyz.onrender.com/api/reservas"; // Link gerado pelo Render
+      : "https://SEU-LINK-DO-RENDER-AQUI.onrender.com/api/reservas"; // Link gerado pelo Render
 
     try {
       if (msg) {

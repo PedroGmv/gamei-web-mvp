@@ -4,7 +4,7 @@ const cors = require('cors');
 const { z } = require('zod');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Permite que o front-end envie dados para este servidor e entenda o formato JSON
 app.use(cors());
@@ -75,4 +75,4 @@ app.get('/api/reservas', (req, res) => {
   });
 });
 
-app.listen(port, () => console.log(`Servidor Back-end rodando em http://localhost:${port}`));
+app.listen(port, () => console.log(`Servidor Back-end rodando na porta ${port}`));
