@@ -1,6 +1,10 @@
 # 🍷 GAMEI | Hospitalidade de Experiência
 
+<<<<<<< HEAD
 Um MVP de um restaurante experiencial focado em cápsulas intimistas e personalizáveis para casais, localizado na Zona Sul do Rio de Janeiro.
+=======
+Um restaurante experiencial focado em cápsulas intimistas e personalizáveis para casais, localizado na Zona Sul do Rio de Janeiro.
+>>>>>>> 5b503d0b8c9d0cd8a4b8e05ac1e408f935a2df77
 
 !GAMEI Preview
 
